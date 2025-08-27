@@ -1,8 +1,12 @@
 fun main(){
-
-    for(i in 1.. 10){
-        println("Vamos en el valor $i")
-    }
+    var i = 1;
+    var ciclos =1;
+    do {
+        ciclos++;
+        val randomNumber = (0.. 10 ).random()
+        i = i + randomNumber;
+        println("ciclo $ciclos : $i")
+    } while (i <= 300)
 
 
 }
